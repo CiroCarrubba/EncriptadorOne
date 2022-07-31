@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(161, 115, 30) ;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#texto{
+    
+    width: 75vh;
+    height: 35rem;
+    margin-top: 2rem;
+    margin-left: 84px;
+    resize: none;
+    outline: none;
+    border-style: none;
+    font-size: 25px;
+    
+}
+.resultado{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    width: 30rem;
+    height: 40rem;
+    background-color: #f5f7f878;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#morty{
+    width: 80%;
+    height: 35rem;
+    resize: none;
+    outline: none;
+    border-style: none;
+    font-size: 20px;
+    border-radius: 1rem;
+    color: bisque;
+    
+}
+#alerta{
+  width: 28rem;
+  height: 38rem;
+}
+#copiar{
+   background-color: #79828d; 
+   border-radius: 10px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   color:white;
+   padding: 8px 12px;
+   margin-top: 1rem;
+}
+#encriptar{
+    background-color: #79828d;
+    border-radius: 10px;
+    color: white; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 8px 12px;
+    margin-left:4rem;
+}
+#desencriptar{
+background-color:  #71190a;
+border-radius: 10px;
+border-color: #2e0a04;
+color: white;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+padding: 8px 12px;
+left: 5%;
+}
+.logo{
+    margin-top: 40px;
+    margin-left: 84px;
+}
+#box_resultado{
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width:800px) {
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+  .resultado{
+    margin:1rem
+  }
+}
+@media screen and (max-width:700px) {
+
+} 
